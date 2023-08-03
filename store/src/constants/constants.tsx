@@ -1,4 +1,6 @@
-export const PRODUCTS = [
+import { Item } from "../interfaces/card/interface"
+
+export const PRODUCTS: Item[] = [
     {
       id: 0,
       brand: 'nike',

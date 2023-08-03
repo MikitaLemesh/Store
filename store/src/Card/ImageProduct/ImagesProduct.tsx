@@ -1,7 +1,11 @@
 import React from "react";
+import { IImages } from "../../interfaces/card/interface";
 
-export const ImagesProduct = () => {
+export const ImagesProduct = (props: IImages) => {
     return (
-        <h1>Images</h1>
+        <img
+            src={props.imageFirst}
+            alt={props.name}
+        />
     )
 }

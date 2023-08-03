@@ -1,8 +1,10 @@
 import React from "react";
 import styles from './card.module.css';
+import { ICard } from "../interfaces/card/interface";
+import { ImagesProduct } from "./ImageProduct/ImagesProduct";
  
-export const Card = () => {
+export const Card = (props: ICard) => {
     return (
-        <h1 className={styles.card}>Card</h1>
+        <ImagesProduct imageFirst={props.card.imageFirst} name={props.card.brand} />
     )
 }

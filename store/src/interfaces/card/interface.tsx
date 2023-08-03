@@ -17,3 +17,10 @@ type ID = string | number;
 export interface ICard {
     card: Item
 }
+
+export interface IImages {
+    name: string,
+    imageFirst?: string
+    imageSecond?: string,
+    imageThird?: string,
+  }
