@@ -1,7 +1,8 @@
 import React from "react";
+import { IInfo } from "../../../interfaces/card/interface";
 
-export const Stock = () => {
+export const Stock = (props: IInfo) => {
     return (
-        <h1>Stock</h1>
+        <li>{`Stock: ${props.stock}`}</li>
     )
 }

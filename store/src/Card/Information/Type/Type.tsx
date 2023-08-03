@@ -1,7 +1,8 @@
 import React from "react";
+import { IInfo } from "../../../interfaces/card/interface";
 
-export const Type = () => {
+export const Type = (props: IInfo) => {
     return (
-        <h1>Type</h1>
+        <li>{`Type: ${props.type}`}</li>
     )
 }

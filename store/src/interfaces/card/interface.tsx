@@ -23,4 +23,11 @@ export interface IImages {
     imageFirst?: string
     imageSecond?: string,
     imageThird?: string,
-  }
+}
+
+export interface IInfo {
+    stock?: number,
+    type?: string,
+    rating?: number,
+    price?: number,
+}

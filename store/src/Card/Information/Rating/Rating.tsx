@@ -1,7 +1,8 @@
 import React from "react";
+import { IInfo } from "../../../interfaces/card/interface";
 
-export const Rating = () => {
+export const Rating = (props: IInfo) => {
     return (
-        <h1>Rating</h1>
+        <li>{`Rating: ${props.rating}`}</li>
     )
 }
