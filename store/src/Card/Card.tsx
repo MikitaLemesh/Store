@@ -8,7 +8,7 @@ export const Card = (props: ICard) => {
     return (
         <div>
             <ImagesProduct imageFirst={props.card.imageFirst} name={props.card.brand} />
-            <Information />
+            <Information stock={props.card.stock} type={props.card.type} rating={props.card.rating} price={props.card.price}/>
         </div>
     )
 }
