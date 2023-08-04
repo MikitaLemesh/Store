@@ -1,7 +1,11 @@
 import React from 'react';
+import styles from './mainePage.module.css';
+import { ItemsContainer } from './ItemsContainer/ItemsContainer';
 
 export const MainePage = () => {
   return (
-    <div></div>
+    <section className={styles.section__maine}>
+      <ItemsContainer />
+    </section>
   )
 }

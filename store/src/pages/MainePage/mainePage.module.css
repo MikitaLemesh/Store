@@ -1,0 +1,4 @@
+.section__maine {
+    display: flex;
+    flex-direction: row;
+}

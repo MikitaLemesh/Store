@@ -1,0 +1,7 @@
+.div__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1100px;
+    gap: 10px;
+}

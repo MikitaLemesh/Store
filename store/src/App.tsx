@@ -18,9 +18,6 @@ function App() {
           <Route path='*' />
         </Route>
       </Routes>
-      {PRODUCTS.map((item) => {
-        return <Card card={item} />
-      })}
     </div>
   );
 }
