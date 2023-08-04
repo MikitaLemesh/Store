@@ -1,0 +1,13 @@
+.img__cart {
+    width: 70px;
+    height: 70px;
+    background-color: inherit;
+}
+
+.btn__header {
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    background-color: inherit;
+    border: none;
+}

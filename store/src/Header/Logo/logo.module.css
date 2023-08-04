@@ -1,0 +1,9 @@
+.logo__container {
+    display: flex;
+    align-items: center;
+}
+
+.img__logo {
+    width: 80px;
+    height: 80px;
+}
