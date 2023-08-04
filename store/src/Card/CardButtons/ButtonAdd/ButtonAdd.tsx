@@ -3,6 +3,6 @@ import styles from './buttonAdd.module.css';
 
 export const ButtonAdd = () => {
     return (
-        <button>Add item</button>
+        <button className={styles.btn__add}>Add item</button>
     )
 }

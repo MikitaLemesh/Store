@@ -1,0 +1,6 @@
+.div__btns {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
