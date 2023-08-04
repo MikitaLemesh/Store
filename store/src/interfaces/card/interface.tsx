@@ -19,7 +19,7 @@ export interface ICard {
 }
 
 export interface IImages {
-    name: string,
+    brand: string,
     imageFirst?: string
     imageSecond?: string,
     imageThird?: string,
