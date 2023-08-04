@@ -19,13 +19,23 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-console": "warn",
+      "quotes": ["error", "single"],
+      "jsx-quotes": ["error", "prefer-single"],
+      "prefer-const": "error",
+      "indent": ["warn", 2],
+      "react/jsx-indent-props": ["warn", 2]
+    }
   },
   "browserslist": {
     "production": [
@@ -40,6 +50,8 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.17.0"
+    "@testing-library/jest-dom": "^5.17.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-react": "^7.33.1"
   }
 }
