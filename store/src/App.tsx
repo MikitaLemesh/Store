@@ -1,7 +1,5 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Card } from './Card/Card';
-import { PRODUCTS } from './constants/constants';
 import { CartPage } from './pages/CartPage/CartPage';
 import { DetailsPage } from './pages/DetailsPage/DetailsPage';
 import { Page } from './pages/Page';
