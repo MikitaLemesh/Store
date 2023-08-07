@@ -1,6 +1,7 @@
 import React from 'react';
 import { IFilterType } from '../../../../interfaces/mainePage/interface';
 import { PRODUCTS } from '../../../../constants/constants';
+import styles from './filterType.module.css';
 
 const findTypes = (): IFilterType => {
   const arrayCategory = PRODUCTS.reduce((acc: IFilterType, item) => {
@@ -21,7 +22,7 @@ export const FilterType = () => {
     const arrayChecked = arrayFromElements.map((item) => item.checked)
   }
   return (
-    <fieldset>
+    <fieldset className={styles.div__type}>
       <legend>Category</legend>
       {Object.entries(findTypes()).map((item): React.ReactNode => {
         return (
