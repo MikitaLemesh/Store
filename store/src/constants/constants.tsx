@@ -1,4 +1,5 @@
 import { Item } from '../interfaces/card/interface'
+import { IIdProduct } from '../interfaces/detailsPage/interface'
 
 export const PRODUCTS: Item[] = [
   {
@@ -353,3 +354,7 @@ export const PRODUCTS: Item[] = [
     sex: 'female',
   },
 ]
+
+export const idProduct: IIdProduct = {
+  id: 0
+}
