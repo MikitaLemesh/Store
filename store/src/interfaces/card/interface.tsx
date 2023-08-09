@@ -1,4 +1,4 @@
-export interface Item {
+export interface IItem {
     id: ID,
     brand: string,
     description: string,
@@ -15,7 +15,7 @@ export interface Item {
 type ID = string | number;
   
 export interface ICard {
-    card: Item
+    card: IItem
 }
 
 export interface IImages {

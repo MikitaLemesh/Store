@@ -8,7 +8,7 @@ import { Brand } from './Brand/Brand';
  
 export const Card = (props: ICard) => {
   return (
-    <div className={styles.card} id={props.card.id.toString()}>
+    <div className={styles.card} id={props.card.id?.toString()}>
       <Brand brand={props.card.brand} />
       <div className={styles.div__position}>
         <ImagesProduct imageFirst={props.card.imageFirst} brand={props.card.brand} />

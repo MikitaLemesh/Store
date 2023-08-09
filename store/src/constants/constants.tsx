@@ -1,7 +1,7 @@
-import { Item } from '../interfaces/card/interface'
+import { IItem } from '../interfaces/card/interface'
 import { IIdProduct } from '../interfaces/detailsPage/interface'
 
-export const PRODUCTS: Item[] = [
+export const PRODUCTS: IItem[] = [
   {
     id: 0,
     brand: 'nike',
