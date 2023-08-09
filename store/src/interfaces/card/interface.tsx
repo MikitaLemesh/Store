@@ -28,6 +28,8 @@ export interface IImages {
 export interface IInfo {
     stock?: number,
     type?: string,
+    description?: string,
     rating?: number,
     price?: number,
+    value?: string
 }
