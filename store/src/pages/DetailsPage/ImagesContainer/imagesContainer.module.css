@@ -1,0 +1,27 @@
+.div__container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 600px;
+}
+
+.div__images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img__size {
+    width: 100px;
+    height: 100px;
+}
+
+.img__mane {
+    width: 320px;
+    height: 320px;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+}
