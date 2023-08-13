@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.App {
+    background-color: aqua;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}

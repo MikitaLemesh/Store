@@ -4,10 +4,11 @@ import { CartPage } from './pages/CartPage/CartPage';
 import { DetailsPage } from './pages/DetailsPage/DetailsPage';
 import { Page } from './pages/Page';
 import { MainePage } from './pages/MainePage/MainePage';
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div>
+    <div className={styles.App}>
       <Routes>
         <Route path='/' element={<Page />}>
           <Route index element={<MainePage />}/>
