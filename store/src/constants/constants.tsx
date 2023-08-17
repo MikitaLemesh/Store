@@ -358,3 +358,5 @@ export const PRODUCTS: IItem[] = [
 export const idProduct: IIdProduct = {
   id: 0
 }
+
+export const copyArrayProducts: IItem[] = JSON.parse(JSON.stringify(PRODUCTS));

@@ -1,6 +1,6 @@
 import React from 'react';
 import { IChildren } from '../../../interfaces/detailsPage/interface';
-import styles from './container.module.css';
+import styles from './containerDetailsPage.module.css';
 
 export const Container = (props: IChildren) => {
   return (
